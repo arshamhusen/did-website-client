@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #0b0b0c;
+  --secondary-color: #1d1c1c;
+  --icons-color: #d1d1d1;
+  --icons-hover-color: rgb(61, 151, 179);
+  --text-color: #cacaca;
+  --speed: 500ms;
+  --weight: 400;
+}
+
+.module-cont {
+  padding: 10px;
+  padding-bottom: 123px;
+}
+
+.module-sub-cont {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 20px;
+  width: 90.5%;
+}
+
+.module-sub-cont h6 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d1d1d1;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.module-table {
+  background-color: var(--primary-color);
+}
+
+.header-module {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.header-module p {
+  font-size: 12px;
+  padding-top: 0;
+}
+
+#module-name-h {
+  width: 250px;
+}
+
+#module-code-h {
+  width: 290px;
+}
+
+#module-dean-h {
+  width: 320px;
+}
+
+.module-row {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-bottom: 1px solid #1d1c1c;
+}
+
+.module-row p {
+  padding-top: 0;
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.module-row:hover {
+  background-color: var(--icons-hover-color);
+}
+
+#module-name-d {
+  width: 250px;
+}
+
+#module-code-d {
+  width: 290px;
+}
+
+#module-dean-d {
+  width: 320px;
+}

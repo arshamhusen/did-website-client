@@ -1,0 +1,750 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #0b0b0c;
+  --secondary-color: #1d1c1c;
+  --icons-color: #d1d1d1;
+  --icons-hover-color: #3d96b1;
+  --text-color: #cacaca;
+  --speed: 500ms;
+}
+
+.myclass {
+  background-image: url("../assets/lecbg.jpg");
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+}
+
+.myclass-cont {
+  padding-left: 255px;
+  padding-top: 30px;
+  width: 1000px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.create-class-cont {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 92%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form-main-cont {
+  padding: 10px;
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+}
+
+.form-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.form-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.custom-calendar {
+  box-shadow: 0 1em 3em rgba(155, 147, 199, 0.2) !important;
+  background-color: #1d1c1c !important;
+}
+
+.create-class-cont h2 {
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.form-main-cont input {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  color: #0b0b0c;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-main-cont label {
+  color: #1d1c1c;
+  font-size: 14px;
+  padding-left: 10px;
+  padding: 5px;
+}
+
+#nfc-warning {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  color: #3d96b1;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3498db;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.create-class-cont button {
+  box-shadow: 2px 8px 12px 0 rgba(165, 166, 185, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  cursor: pointer;
+  margin-left: 25px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.create-class-cont button:hover {
+  box-shadow: 2px 3px 3px 0 rgba(165, 166, 185, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.react-time-picker__wrapper {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 30px !important;
+  padding-bottom: 10px !important;
+  width: 50% !important;
+  border: none !important;
+}
+
+.react-date-picker__wrapper {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  height: 30px !important;
+  padding-bottom: 10px !important;
+  border: none !important;
+  width: 50% !important;
+}
+
+.react-date-picker__wrapper input {
+  color: #0b0b0c !important;
+  font-size: 14px !important;
+}
+
+.react-time-picker__wrapper input {
+  color: #0b0b0c !important;
+  background-color: none !important;
+  font-size: 14px !important;
+}
+
+.react-time-picker__wrapper select {
+  color: #0b0b0c !important;
+  background-color: none !important;
+  font-size: 14px !important;
+}
+
+.special-input {
+  margin-top: 0;
+  padding: 5.5px;
+}
+
+.select-style {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5.5px;
+  width: 50% !important;
+}
+.input-div {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.input-div label {
+  padding: 5px;
+}
+
+#drop-down {
+  padding: 7px;
+  width: 45%;
+  border: none;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* NFC pop up */
+
+.nfc-popup {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  position: absolute;
+  height: 860px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  padding: 0;
+  border: 0;
+  border-bottom: 100px;
+}
+
+.blur-cont {
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4.5px);
+  border-radius: 15px;
+}
+
+.blur-cont h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.blur-cont h4 {
+  font-size: 18px;
+  color: var(--secondary-color);
+  padding-bottom: 5px;
+}
+
+.blur-cont p {
+  padding-top: 0;
+  color: var(--icons-hover-color);
+  font-size: 12px;
+  padding-top: 7px;
+}
+
+.blur-cont label {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+
+.btn-cont-pu {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.btn-cont-pu button {
+  flex: 1;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: azure;
+  box-shadow: 2px 8px 12px 0 rgba(165, 166, 185, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #f3f3f3;
+}
+
+.btn-cont-pu button:hover {
+  box-shadow: 2px 3px 3px 0 rgba(165, 166, 185, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.time-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.react-date-picker__calendar {
+  width: 310px !important;
+  border-radius: 10px !important;
+}
+
+/* Create a custom checkbox */
+
+.check-box {
+  padding-bottom: 5px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.check-box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  height: 20px;
+  width: 20px;
+  background-color: azure;
+  border-radius: 4px;
+}
+
+.check-box:hover input ~ .checkmark {
+  background-color: azure;
+}
+
+.check-box input:checked ~ .checkmark {
+  background-color: azure;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check-box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.check-box .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #3d96b1;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* ..... */
+
+.checkmark-2 {
+  position: absolute;
+  top: 5px;
+  left: 110px;
+  height: 20px;
+  width: 20px;
+  background-color: azure;
+  border-radius: 4px;
+}
+
+.check-box:hover input ~ .checkmark-2 {
+  background-color: azure;
+}
+
+.check-box input:checked ~ .checkmark-2 {
+  background-color: azure;
+}
+
+.checkmark-2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check-box input:checked ~ .checkmark-2:after {
+  display: block;
+}
+
+.check-box .checkmark-2:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #3d96b1;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.check-box label {
+  padding-right: 50px;
+}
+
+/* Loading animation */
+
+.loader {
+  position: absolute;
+  z-index: 1000;
+  top: 220px;
+  left: 650px;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nfc-div {
+  z-index: 1000;
+  position: absolute;
+  background-color: azure;
+  padding: 220px;
+  top: 62px;
+  left: 400px;
+}
+
+.nfc-div h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.lottie-ani {
+  padding: 20px;
+}
+
+.nfc-btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Attendance by Class ID */
+
+.main-blur-cont {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-bottom: 100px;
+}
+
+.att-cont-sub1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+  margin-right: 20px;
+}
+
+.att-chart-cont {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.att-chart-cont h1 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.attended-students {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  max-width: 100%;
+  align-items: left;
+  overflow: scroll;
+  max-height: 200px;
+}
+
+.student-div {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  max-width: 180px;
+  margin-top: 10px;
+}
+
+.student-div p {
+  padding: 5px;
+  color: #1d1c1c;
+  font-size: 12px;
+}
+
+.att-cont-sub2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.att-cont-sub2 h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.att-cont-sub2 p {
+  font-size: 12px;
+  color: var(--icons-hover-color);
+  padding: 10px;
+}
+
+.OTP-cont {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.OTP-cont h1 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.class-info-cont {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  padding: 10px;
+}
+.class-info-cont p {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.class-info-cont label {
+  font-size: 14px;
+  padding-left: 10px;
+  max-width: 100px;
+}
+
+/* Attendance Table */
+
+.main-blur-cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.main-blur-cont1 h1 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.att-table {
+  padding: 15px;
+  background-color: azure;
+  border-radius: 20px;
+}
+
+.att-header {
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border-bottom: 1px solid #1d1c1c;
+}
+
+.att-header label {
+  font-size: 16px;
+}
+
+.att-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.att-data {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.att-data:hover {
+  background-color: #a0d9ff;
+  border-radius: 10px;
+}
+
+.att-data label {
+  font-size: 14px;
+}
+
+#att-tp {
+  width: 150px;
+  text-align: center;
+}
+
+#att-name {
+  width: 500px;
+}
+
+#att-status {
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+#att-status-a {
+  width: 100px;
+  background-color: #d65454;
+  text-align: center;
+  padding: 2px;
+  margin-right: 3px;
+  color: aliceblue;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+#att-status-p {
+  width: 100px;
+  background-color: #3498db;
+  text-align: center;
+  padding: 2px;
+  margin-right: 3px;
+  color: aliceblue;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+#att-action {
+  width: 120px;
+  text-align: center;
+}
+
+.export-btn-cont {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.export-btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  border-radius: 10px;
+  color: #247200;
+}
+
+.export-btn:hover {
+  background-color: #247200;
+  color: aliceblue;
+}
+
+.export-btn svg {
+  padding: 2px;
+}
+/* Responsive Styles */
+
+@media (max-width: 920px) {
+  Body {
+    height: 731px;
+    width: 411px;
+  }
+  .myclass {
+    height: 832px;
+  }
+  .myclass-cont {
+    padding-left: 21px;
+    padding-top: 18px;
+    height: 870px;
+  }
+
+  .create-class-cont {
+    width: 36%;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .form-main-cont {
+    flex-direction: column;
+  }
+
+  .form-1 label {
+    padding-bottom: 10px;
+  }
+
+  .form-1 {
+    padding-bottom: 0;
+  }
+  .form-2 {
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .create-class-cont h2 {
+    font-size: 18px;
+  }
+
+  #drop-down {
+    width: 75%;
+    color: #919191;
+  }
+
+  .form-main-cont label {
+    padding-bottom: 7px;
+  }
+
+  .create-class-cont button {
+    margin-bottom: 20px;
+    margin-left: 124px;
+  }
+}

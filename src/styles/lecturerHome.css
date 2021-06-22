@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-home-cont {
+  width: 100%;
+}
+
+.lecturerHome {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+#lecturer-id-h {
+  width: 40px;
+}
+
+#lecturer-id-d {
+  width: 40px;
+}
+
+#lecturer-name-h {
+  width: 250px;
+}
+
+#lecturer-name-d {
+  width: 250px;
+}
+
+#lecturer-eid-h {
+  width: 200px;
+}
+
+#lecturer-eid-d {
+  width: 200px;
+}
+
+#lecturer-email-h {
+  width: 320px;
+}
+
+#lecturer-email-d {
+  width: 320px;
+}
+
+.lecturer-row {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-bottom: 1px solid #1d1c1c;
+}
+
+.lecturer-row p {
+  padding-top: 0;
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.lecturer-row:hover {
+  background-color: var(--icons-hover-color);
+}
+
+#lecturer-code-d {
+  width: 290px;
+}
+
+#lecturer-dean-d {
+  width: 320px;
+}
