@@ -4,14 +4,9 @@ import { useHistory, useParams, Link } from "react-router-dom";
 import axios from "axios";
 import { Doughnut } from "react-chartjs-2";
 import "../styles/studentById.css";
-import * as Yup from "yup";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../App.css";
-import Profile from "../assets/guy.png";
-
-// Icons
-import { BiBookAdd } from "react-icons/bi";
 
 AOS.init();
 

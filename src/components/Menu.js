@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import "../styles/menu.css";
-import { ReactComponent as Icon } from "../assets/check.svg";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { FiSettings } from "react-icons/fi";
 import { FaUserTie, FaUserEdit } from "react-icons/fa";
