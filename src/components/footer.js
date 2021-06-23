@@ -11,7 +11,7 @@ function footer() {
             <h1>Digital Identity</h1>
             <p>
               Digital Identity is a mobile application which allows the users to
-              identify themseleves and manage the idms
+              identifyx themseleves and manage the idms
             </p>
             <ul>
               <li>
