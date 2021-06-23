@@ -208,7 +208,7 @@ function Register() {
               ></input>
               {errors.conPassword && <p id="error-msg">{errors.conPassword}</p>}
               <p>
-                By clicking register, You are accepting the{" "}
+                By clicking register, You are accepting these{" "}
                 <a href="/">terms and conditions!</a>
               </p>
             </div>
