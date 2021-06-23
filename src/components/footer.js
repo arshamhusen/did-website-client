@@ -10,8 +10,8 @@ function footer() {
           <div class="footer-items">
             <h1>Digital Identity</h1>
             <p>
-              Digitall Identity is a mobile application which allows the users
-              to identify themseleves and manage the idms
+              Digital Identity is a mobile application which allows the users to
+              identify themseleves and manage the idms
             </p>
             <ul>
               <li>
